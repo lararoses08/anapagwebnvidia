@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.navbar {
+    transition: background-color 0.3s;
+}
+
+/* Animación de Fade In */
+.animate-fade {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Ajuste del carrusel */
+.carousel img {
+    height: 600px;
+     width: 4px;
+    object-fit: cover;
+}
+
+/* Estilo de botones */
+.btn-primary {
+    background-color: #0f2d4d;
+    border-color: #007bff;
+}
+.bg-custom-blue {
+    background-color: #0f2d4d; /* Color azul personalizado */
+    color: white; /* Texto blanco */
+}
+
+.bg-custom {
+    background-color: #4479b1; /* Cambia este valor al tono de azul que desees */
+}
+
+.navbar .nav-link {
+    color: white; /* Cambia el color del texto de los enlaces a blanco */
+}
+
+.navbar .nav-link:hover {
+    color: #f8f9fa; /* Color del texto al pasar el mouse (opcional) */
+}
+
+.navbar-custom {
+    background-color: #007bff; /* Cambia este valor por el tono de azul que desees */
+}
+
+
+ body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .bg-custom {
+            background-color: #1e1e1e;
+        }
+
+        .bg-custom-blue {
+            background-color: #0d6efd;
+            color: #ffffff;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #0d6efd, #6610f2);
+            color: white;
+            padding: 100px 0;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .card {
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+
+        .social-icons img {
+            transition: transform 0.3s;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+        } body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .bg-custom {
+            background-color: #1e1e1e;
+        }
+
+        .bg-custom-blue {
+            background-color: #0d6efd;
+            color: #ffffff;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #0d6efd, #6610f2);
+            color: white;
+            padding: 100px 0;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+       
+
+        
+    
+
+        
